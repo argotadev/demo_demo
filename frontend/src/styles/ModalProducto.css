@@ -1,0 +1,18 @@
+/* Estilo para el contenido del modal */
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 800px; /* Limita el ancho del modal */
+    width: 90%; /* Asegura que no sea muy grande */
+    max-height: 70vh; /* Limita la altura del modal */
+    overflow-y: auto; /* Añadir scroll si es necesario */
+    border-radius: 8px;
+    margin: auto; /* Centra el modal en la pantalla */
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  

@@ -1,0 +1,10 @@
+.logo{
+    height: 80px;
+    size: 200px;
+}
+
+/* styles/NavBar.css */
+.navbar {
+    z-index: 1050; /* Asegúrate de que esté por encima del contenido */
+  }
+  

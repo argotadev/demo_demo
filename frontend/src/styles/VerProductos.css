@@ -1,0 +1,164 @@
+/* VerProductos.css */
+.ver-productos-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ver-productos-container .main-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 82%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #000000;
+}
+
+.ver-productos-container .data-grid-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: transparent;
+  margin-bottom: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+
+.ver-productos-container .data-grid {
+  background-color: transparent !important;
+  color: #000000;
+  border: none;
+  height: 100%;
+  flex-grow: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ver-productos-container .data-grid .MuiDataGrid-cell {
+  color: #000000;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 14px;
+}
+
+.ver-productos-container .data-grid .MuiDataGrid-columnHeaders {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 2px solid #005b4f;
+}
+
+.ver-productos-container .data-grid .MuiDataGrid-row:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.ver-productos-container .data-grid .MuiDataGrid-row:nth-child(odd) {
+  background-color: #b3edb2;
+}
+
+.ver-productos-container .data-grid .MuiDataGrid-row:hover {
+  background-color: #b2ebf2 !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.ver-productos-container .add-product-button {
+  background-color: #9ff16f;
+  color: #ffffff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ver-productos-container .add-product-button:hover {
+  background-color: #039be5;
+}
+
+.ver-productos-container .add-product-button:active {
+  background-color: #9cf878;
+  transform: scale(0.95);
+}
+
+.ver-productos-container .action-button {
+  background-color: #4caf50 !important;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.ver-productos-container .action-button:hover {
+  background-color: #66bb6a;
+}
+
+.ver-productos-container .action-button:active {
+  background-color: #388e3c;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .ver-productos-container .MuiDataGrid-root {
+    margin-bottom: 100px !important;
+  }
+}
+
+
+/*BOTONES DE ACCION DE AGREGAR PROVEEDOR MEDIDA Y PRODUCTO*/
+// En tu CSS
+.icon-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.compact-button {
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.button-tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  z-index: 1000;
+}
+
+.icon-button-container:hover .button-tooltip {
+  opacity: 1;
+  visibility: visible;
+}

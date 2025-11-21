@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 200px; /* Logo más grande */
+  }
+  
+  .empresa-info {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .comprobante-info {
+    text-align: right;
+  }
+  
+  /* Client Info */
+  .client-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Invoice Table */
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .invoice-table th {
+    background-color: #f4f4f4;
+    color: #555;
+  }
+  
+  /* Totals */
+  .totals {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+  }
+  
+  .totals table {
+    width: 200px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .totals th, .totals td {
+    padding: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  

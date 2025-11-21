@@ -1,0 +1,91 @@
+/* Usuarios.css */
+
+/* Estilo para el contenedor del título y el botón */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo del título */
+.title {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilo del botón "Agregar Usuario" */
+.add-user-button {
+  background-color: #44794c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px #44794c;
+  transition: background-color 0.3s;
+}
+
+.add-user-button:hover {
+  background-color: #137d0c;
+}
+
+/* Estilo para las filas pares con un color de fondo oscuro */
+.even-row {
+  background-color: gray !important; /* Color claro */
+  color: black;
+}
+
+/* Estilo para las filas impares con un color de fondo más oscuro */
+.odd-row {
+  background-color: #e9e9e9; /* Color ligeramente más oscuro */
+  color: black;
+}
+
+/* Estilo para la caja de búsqueda */
+.search-input {
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+/* Estilos para el DataGrid */
+.MuiDataGrid-root {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.MuiDataGrid-cell {
+  font-size: 14px;
+}
+
+/* Agregar un borde y separación entre las celdas */
+.MuiDataGrid-columnHeaders {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+}
+
+.MuiDataGrid-footer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.MuiDataGrid-pagination {
+  font-size: 14px;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  color: black !important; /* Asegura que el texto sea visible */
+}
+
+
+/* Estilo de los botones en las celdas */
+.MuiDataGrid-cell .MuiButtonBase-root {
+  padding: 4px 8px;
+  margin: 0;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}

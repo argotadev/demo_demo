@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo suave */
+    color: #333; /* Texto oscuro */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 100px; /* Alto fijo para el logo */
+    width: auto; /* Ancho automático para mantener la proporción */
+    margin-right: 20px; /* Espacio entre el logo y la info */
+  }
+  
+  .empresa-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666; /* Texto más suave */
+  }
+  
+  .empresa-info a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #666; /* Color del texto */
+  }
+  h4{
+    margin: none;
+  }
+
+  
+  .empresa-info a:hover {
+    color: #333; /* Cambiar color al pasar el mouse */
+  }
+  
+  .comprobante-info {
+    margin-left: auto; /* Alinear a la derecha */
+    text-align: right;
+  }
+  
+  .comprobante-info h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Texto oscuro */
+  }
+  
+  .comprobante-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666; /* Texto más suave */
+  }
+  
+  .client-info {
+    margin-bottom: 20px;
+  }
+  
+  .client-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Texto oscuro */
+  }
+  
+  .client-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666; /* Texto más suave */
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-table th, .invoice-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee; /* Línea suave */
+  }
+  
+  .invoice-table th {
+    font-weight: 500;
+    color: #333; /* Texto oscuro */
+  }
+  
+  .invoice-table td {
+    color: #666; /* Texto más suave */
+  }
+  
+  .totals {
+    text-align: justify; /* Alinear el total a la derecha */
+    margin-top: 20px; /* Espacio entre la tabla y el total */
+  }
+  
+  .totals table {
+    width: 100%; /* Ocupa todo el ancho */
+    border-top: 2px solid #333; /* Línea superior más gruesa */
+  }
+  
+  .totals th, .totals td {
+    padding: 12px;
+    text-align: right; /* Alinear texto a la derecha */
+  }
+  
+  .totals th {
+    font-weight: 500;
+    color: #333; /* Texto oscuro */
+  }
+  
+  .totals td {
+    font-weight: bold;
+    color: #333; /* Texto oscuro */
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666; /* Texto más suave */
+    margin-top: 20px;
+  }
+
+  @media print {
+    /* Oculta la URL y el título en la impresión */
+    @page {
+      margin: 0; /* Elimina los márgenes predeterminados */
+    }
+  
+    body {
+      margin: 0; /* Elimina los márgenes del cuerpo */
+    }
+  
+    /* Oculta el encabezado y pie de página del navegador */
+    @page {
+      size: auto; /* Tamaño de página automático */
+      margin: 0mm; /* Sin márgenes */
+    }
+  
+    /* Oculta cualquier elemento que el navegador agregue automáticamente */
+    @page :left, @page :right, @page :first {
+      margin: 0;
+    }
+  
+    /* Asegúrate de que no se muestren encabezados ni pies de página */
+    @page {
+      marks: none; /* Sin marcas de corte */
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    /* Oculta el título y la URL en la impresión */
+    @page {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    /* Asegúrate de que no se muestren elementos no deseados */
+    @page {
+      margin: 0;
+    }
+  }

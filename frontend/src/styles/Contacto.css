@@ -1,0 +1,154 @@
+.contacto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .contacto-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contacto-subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contacto-content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .contacto-card {
+    flex: 1;
+    min-width: 300px;
+    padding: 2rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .contacto-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .oficina {
+    border-top: 5px solid #27ae60;
+  }
+  
+  .digital {
+    border-top: 5px solid #3498db;
+  }
+  
+  .highlight {
+    font-size: 1.3rem;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .contacto-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+  
+  .icono {
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f1f1f1;
+  }
+  
+  .whatsapp {
+    background: #25D366;
+    color: white;
+  }
+  
+  .email {
+    background: #3498db;
+    color: white;
+  }
+  
+  .destacado {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .destacado:hover {
+    color: #e74c3c;
+  }
+  
+  .small {
+    font-size: 0.8rem;
+    color: #95a5a6;
+    margin-top: 0.3rem;
+  }
+  
+  .mapa-container {
+    margin: 3rem 0;
+    text-align: center;
+  }
+  
+  .mapa-frame {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin-top: 1rem;
+  }
+  
+  .llamado-accion {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #fff8e1;
+    border-radius: 10px;
+    border-left: 5px solid #f39c12;
+  }
+  
+  .boton-urgente {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s;
+    box-shadow: 0 3px 10px rgba(231, 76, 60, 0.3);
+  }
+  
+  .boton-urgente:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .contacto-title {
+      font-size: 1.8rem;
+    }
+    
+    .contacto-card {
+      min-width: 100%;
+    }
+  }

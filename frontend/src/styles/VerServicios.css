@@ -1,0 +1,60 @@
+/* Estilos generales del contenedor */
+.servicios-container {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para los botones de acción */
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  text-transform: none;
+  font-weight: 500;
+}
+
+/* Estilos para el DataGrid */
+.servicios-grid {
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los modales */
+.modal-header {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px 24px;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.modal-content {
+  padding: 24px;
+}
+
+.modal-actions {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Estilos para los campos del formulario */
+.form-field {
+  margin-bottom: 20px;
+}
+
+/* Estilos específicos para el modal de categoría */
+.categoria-modal {
+  min-width: 400px;
+}

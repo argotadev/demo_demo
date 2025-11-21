@@ -1,0 +1,88 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height:100%;
+    background-color: #343a40; /* Color del fondo igual al navbar */
+    transition: all 0.3s ease-in-out;
+    margin-top: 90px;
+  }
+  
+  .sidebar .logo {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  /* Estilo para los items de la lista */
+  .sidebar .list-group-item {
+    background-color: #343a40 !important; /* Color igual al navbar */
+    color: white;
+    border: none;
+    padding: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover para los items */
+  .sidebar .list-group-item:hover {
+    background-color: #007bff; /* Color de fondo al hacer hover */
+    transform: scale(1.05);
+  }
+  
+  /* Cuando el item está activo (seleccionado) */
+  .sidebar .list-group-item.active {
+    background-color: #007bff; /* Color de fondo cuando está activo */
+    color: yellow; /* Color del texto amarillo */
+  }
+  
+  .sidebar .list-group-item.active svg {
+    fill: yellow; /* Cambiar color del icono a amarillo */
+  }
+  
+  .sidebar .name-item {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para los iconos */
+  .sidebar .list-group-item svg {
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: white; /* Color de los iconos por defecto */
+  }
+  
+  /* Cambio de color de los iconos cuando se selecciona el item */
+  .sidebar .list-group-item.active svg {
+    fill: yellow; /* Icono amarillo cuando el item está activo */
+  }
+  
+  /* Estilo para el link */
+  .sidebar .list-group-item-action {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hover para los links */
+  .sidebar .list-group-item-action:hover {
+    color: #fff;
+  }
+  
+  /* Responsividad para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .sidebar .list-group-item {
+      padding: 10px;
+    }
+  
+    .sidebar .logo {
+      width: 60%;
+    }
+  }
+  

@@ -1,0 +1,44 @@
+body{
+
+    height: 30px;
+    size: 300px;
+}/* Footer.css */
+.footer {
+  background-color: #333; /* Fondo gris oscuro */
+  color: white;
+
+}
+
+h5{
+  color: white;
+}
+.list-unstyled{
+  color: white;
+}
+.footer-logo {
+  min-width: 300px;
+  min-height: 100px; /* Ajusta el tamaño del logo */
+}
+
+.bg-black {
+  background-color: #000; /* Fondo negro para la sección de derechos reservados */
+}
+
+.text-white {
+  color: white !important;
+}
+
+/* Ajustes para los íconos de redes sociales */
+.footer svg {
+  width: 20px;
+  height: 20px;
+  fill: white; /* Color de los íconos */
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}
