@@ -30,7 +30,7 @@ export const Nav = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/inicio" className="nav-link">
+            <NavLink to="/Servicios" className="nav-link">
               Servicios
             </NavLink>
           </li>

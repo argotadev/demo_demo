@@ -10,7 +10,7 @@ export const Inicio = () => {
   const navigate = useNavigate();
 
   const goToUbicacion = () => {
-    navigate('/contacto'); // Asegúrate de tener esta ruta configurada
+    navigate('/contacto'); 
   };
 
   return (
@@ -30,7 +30,7 @@ export const Inicio = () => {
         </button>
       </div>
 
-      <Servicios/>
+      {/* <Servicios/> */}
       <Ubicacion/>
     </div>
   );

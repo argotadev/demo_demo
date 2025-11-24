@@ -43,6 +43,14 @@
     transform: translateY(-5px);
   }
   
+  .contacto-texto{
+    color: #2c3e50 !important;
+  }
+
+  .contacto-texto a {
+    color: #2c3e50 !important;
+  }
+
   .oficina {
     border-top: 5px solid #27ae60;
   }
